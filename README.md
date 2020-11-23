@@ -1,5 +1,5 @@
 # Yttrium
 ### TEAM MATES
-Martin Wilson
-Subhash Kumar Jha
+Martin Wilson,
+Subhash Kumar Jha,
 Abhinav Raj
