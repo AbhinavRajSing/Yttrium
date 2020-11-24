@@ -12,4 +12,10 @@ ahref website clone
 ### subhash
 
 ### abhinav
-
+### Day2 tasks:
+### Martin
+Our Data Page
+### Subhash
+Sign In & Start Trial
+### Abhinav 
+Pricing
