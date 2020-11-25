@@ -75,8 +75,124 @@
             .dropdown-content a:hover {background-color: #ddd;color:orange}
             /* Show the dropdown menu on hover */
             .dropdown:hover .dropdown-content {display: block;}
+
+            /*  */
+            #cont-2 {
+                height: 300vh;
+            }
+            #cont-2-1 {
+                height: 100vh;
+                padding: 0 10% 25%;
+                border: 1px dotted white;
+            }
+            #cont-2-1-h1 {
+                font-size: 13vh;
+            }
+            #cont-2-1-p1 {
+                border: 1px solid red;
+                font-size: 9vh;
+                line-height: 100%;
+                margin: 0% 21.5% 3%;
+            }
+            #cont-2-1-p2 {
+                margin: 0% 21.5%;
+                font-size: 3vh;
+            }
+            /* #cont-2-2 {
+                height: 50vh;
+                border: 1px solid black;
+            } */
+            #cont-2-3 {
+                height: 93.9vh;
+                background-color: white;
+                border-radius: 3%;
+                margin: 0 7%;
+                padding: 7% 7% 12%;
+                margin-bottom: 13.5%;
+                font-size: 110%;
+                display: grid;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                grid-gap: 5%;
+                grid-template: "a b c";
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                color: #ff8800;
+            }
+            #cont-2-3 > div{
+                width: 100%;
+            }
+            #cont-2-3 > div > p {
+                font-size: 130%;
+                padding: 4%2%;
+            }
+            #cont-2-3-a {
+                /* border: 1px solid red; */
+                grid-area: a;
+                /* height: 90%; */
+            }
+            #cont-2-3-b {
+                /* border: 1px solid red; */
+                grid-area: b;
+                /* height: 95%; */
+            }
+            #cont-2-3-c {
+                /* border: 1px solid red; */
+                grid-area: c;
+                /* height: 90%; */
+            }
+            .cont-2-3-buttons {
+                border:  3px solid #054ada;
+                text-align: center;
+                padding: 2% 0;
+                font-size: 140%;
+            }
+            #cont-2-4 {
+                height: 100vh;
+                padding: 10% 9%;
+                display: grid;
+                grid-template-columns: 55% 45%
+                ;
+                grid-gap: 2%;
+            }
+            /* #cont-2-4-img {
+            } */
+            #cont-2-4-left {
+                font-size: 270%;
+                /* border: 1px dotted white; */
+            }
+            #cont-2-4-right {
+                padding-top: 10%;
+                font-size: 220%;
+                /* border: 1px dotted white; */
+            }
             
 
+            .white {
+                color: white;
+            }
+            .gray {
+                color: #9bb6f0;
+            }
+            .blue {
+                color: #054ada;
+            }
+            .black {
+                color: black;
+            }
+            .bg-blue {
+                background-color: #054ada;
+            }
+            .bg-white {
+                background-color: white;
+            }
+            .bg-black {
+                background-color: black;
+            }
+            
+/*  */
         </style>
     </head>
     <body>
@@ -123,6 +239,61 @@
         </div>
         <div id="lightbrown1">
 
+        </div>
+        <div id="cont-2" class="bg-blue">
+            <div id="cont-2-1" class="white">
+                <h1 id="cont-2-1-h1">Free learning<br/><span><img src="src-img/ahref-homepage/cont-2-1-heading-icon.png" width="20%"/></span>materials</h1>
+                <img src="src-img/ahref-homepage/cont-2-1-heading-para-icon.png"/ style="margin: 0;">
+                <p id="cont-2-1-p1">Don’t spend $7 on the trial until you learn how Ahrefs can help you get more search traffic and grow your business.</p>
+                <p class="gray" id="cont-2-1-p2">Tim Soulo, CMO at Ahrefs</p>
+            </div>
+
+            <!-- style bouncing
+            <div id="cont-2-2">
+                
+            </div> -->
+            
+            <!---->
+            <div id="cont-2-3" class="black">
+                <div id="cont-2-3-a">
+                    <h1>Watch weekly<br/>SEO tutorials</h1>
+                    <embed width="100%"height="170vh" src="https://www.youtube.com/embed/R-XxAk8-OXY"/>
+                    <p>What is SEO and How Does it Work? <a href="https://www.youtube.com/watch?v=R-XxAk8-OXY&t=4s" class="blue">Watch →</a></p>
+                    <p>How to Do Keyword Research for a NEW Website. <a href="https://www.youtube.com/watch?v=x5IJ0APR0EQ" class="blue">Watch →</a></p>
+                    <p>Link Building for a New Website: 5 Actionable Ways to Get More Backlinks. <a href="https://www.youtube.com/watch?v=3sF-m5LKCf4&t=3s" class="blue">Watch →</a></p>
+                    <div class="cont-2-3-buttons blue"><a href="" class="blue">More on YouTube →</a></div> 
+                </div>
+                <div id="cont-2-3-b">
+                    <h1>Read "How To"<br/>SEO guides</h1>
+                    <img src="src-img/ahref-homepage/cont-2-3-b.png"width="100%">
+                    <p>What is SEO? Search Engine Optimization Explained. <a href="https://ahrefs.com/blog/what-is-seo" class="blue">Read →</a></p>
+                    <p>How To Do Keyword Research for SEO — Ahrefs’ Guide. <a href="https://ahrefs.com/blog/keyword-research" class="blue">Read →</a></p>
+                    <p>How to Get Backlinks: 7 Tactics That Don’t Require New Content. <a href="https://ahrefs.com/blog/how-to-get-backlinks" class="blue">Read →</a></p>
+
+                    <div class="cont-2-3-buttons"><a href="" class="blue">More on Ahref's Blog →</a></div> 
+                </div>
+                <div id="cont-2-3-c">
+                    <h1>Get answers in <br/>the Help Center</h1>
+                    <img src="src-img/ahref-homepage/cont-2-3-c.png" width="100%">
+                    <p>Got a question about our tools or data? Chances are good that there's an answer ready for you.</p>
+                    <p><a href="https://help.ahrefs.com/" class="blue">300+ support articles in the Help Center →</a></p>
+                </div>
+            </div>
+
+            <!---->
+            <div id="cont-2-4" class="bg-black white">
+                <div id="cont-2-4-left">
+                    <h1><span><img src="src-img/ahref-homepage/cont-2-4-left-icon.-1.png"/></span>Community & support <span><img  src="src-img/ahref-homepage/cont-2-4-left-icon.-2.png" height="90px"/></span></h1>
+                </div>
+                <div id="cont-2-4-right">
+                    <p>Get access to Ahrefs Insider <img src="src-img/ahref-homepage/cont-2-4-right-facebook-icon.png" width=8%;/>, our private Facebook community, where you can bounce ideas and questions off 10,000 SEO-obsessed marketers who have seen it all.</p>
+                    <p>Ask any questions to our customer support team who is happy to talk to you 24/5 via our support chat. Or just simply poke us on Twitter.</p>
+
+                    <p class="links"><a href="https://ahrefs.com/#intercom" style="float: left;" class="blue">Customer support&nbsp;</a><span><img src="src-img/ahref-homepage/cont-2-4-right-customer-icon.png" width="10%"; height="50px" style="clear: both;" /></span></p>
+
+                    <p class="links"><a href="https://twitter.com/ahrefs" style="float: left;" class="blue">@Ahrefs&nbsp;</a><span><img src="src-img/ahref-homepage/cont-2-4-right-ahrefs-twitter-icon.png" width="10%"; height="50px" style="clear: both;" /></span></p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
