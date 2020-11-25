@@ -109,7 +109,7 @@
             }
             #cont-1-1-4 {
                 margin: 4% 11%;
-                width: 60%;
+                width: 50%;
                 font-size: 150%;
                 padding: 2% 4%;
                 border: 1px solid pink;
@@ -127,24 +127,73 @@
             }
             #cont-1-1-5 {
                 margin: 4% 11%;
-                width: 60%;
                 font-size: 150%;
                 padding: 2% 4%;
                 border: 1px solid pink;
-                display: grid;
-                grid-template-columns: 50% 30%;
+            }
+            #cont-1-1-5 > p {
+                width: 75%;
             }
             #cont-1-1-5-grid {
                 display: grid;
                 font-size: 60%;
-                grid-template-columns: 25% 25% 25% 25% 25%;
+                grid-template: "a b c d e k k k k k"
+                               "f g h i j k k k k k";
                 grid-gap: 5%;
-                line-height: 1vh;
+                line-height: 25%;
+                margin-bottom: 5%;
             }
             #cont-1-1-5-grid > div {
                 border-left: 1px solid gray;
-                padding-left: 5%;
-
+                padding-left: 15%;
+            }
+            #cont-1-1-5-grid-1 {
+                grid-area: a;
+            }
+            #cont-1-1-5-grid-2 {
+                grid-area: b;
+            }
+            #cont-1-1-5-grid-3 {
+                grid-area: c;
+            }
+            #cont-1-1-5-grid-4 {
+                grid-area: d;
+            }
+            #cont-1-1-5-grid-5 {
+                grid-area: e;
+            }
+            #cont-1-1-5-grid-6 {
+                grid-area: f;
+            }
+            #cont-1-1-5-grid-7 {
+                grid-area: g;
+            }
+            #cont-1-1-5-grid-8 {
+                grid-area: h;
+            }
+            #cont-1-1-5-grid-9 {
+                grid-area: i;
+            }
+            #cont-1-1-5-grid-10 {
+                grid-area: j;
+            }
+            #cont-1-1-5-grid-11 {
+                grid-area: k;
+                margin-left: 10%;
+                border-left: none !important;
+                line-height: 150%;
+            }
+            #cont-1-1-5-list-grid {
+                margin-top: 5%;
+                display: grid;
+                width: 70%;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                font-size: 70%;
+            }
+            #cont-1-1-5-list-grid > div > pre {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 0;
+                margin: 2%;
             }
 
 
@@ -218,59 +267,135 @@
             </div>
             <hr/>
             <div id="cont-1-1-5">
-                <div id="cont-1-1-5-left">
-                    <h1 class="green">Keyword index</h1>
-                    <p>Keyword index is a huge database of search queries (across 10 different search engines) that you can browse and research what your prospective customers are looking for online.</p>
-                    <h3>8.9 billion keywords. 10 search engines. 228 countries.</h3>
-                    <div id="cont-1-1-5-grid">
-                        <div id="cont-1-1-5-grid-1">
-                            <h3 class="gray">Google</h3>
-                            <h1>7.4 B</h1>
+                <h1 class="green">Keyword index</h1>
+                <p>Keyword index is a huge database of search queries (across 10 different search engines) that you can browse and research what your prospective customers are looking for online.</p>
+                <h3>8.9 billion keywords. 10 search engines. 228 countries.</h3>
+                <div id="cont-1-1-5-grid">
+                    <div id="cont-1-1-5-grid-1">
+                        <h3 class="gray">Google</h3>
+                        <h1>7.4 B</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-2">
+                        <h3 class="gray">Youtube</h3>
+                        <h1>832 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-3">
+                        <h3 class="gray">Yahoo</h3>
+                        <h1>171 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-4">
+                        <h3 class="gray">Amazon</h3>
+                        <h1>159 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-5">
+                        <h3 class="gray">Bing</h3>
+                        <h1>117 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-6">
+                        <h3 class="gray">Yandex</h3>
+                        <h1>96 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-7">
+                        <h3 class="gray">Naver</h3>
+                        <h1>18 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-8">
+                        <h3 class="gray">Seznam</h3>
+                        <h1>8.4 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-9">
+                        <h3 class="gray">Baidu</h3>
+                        <h1>3.5 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-10">
+                        <h3 class="gray">Daum</h3>
+                        <h1>1.8 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-11">
+                        <h3 class="gray">That’s enough to fill out</h3>
+                        <h1>118M book pages</h1>
+                    </div>
+                </div>
+                <div id="cont-1-1-5-list">
+                    <h2>8.9 billion keywords</h2>
+                    <div id="cont-1-1-5-list-grid">
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-2">
-                            <h3 class="gray">Youtube</h3>
-                            <h1>832 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-3">
-                            <h3 class="gray">Yahoo</h3>
-                            <h1>171 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-4">
-                            <h3 class="gray">Amazon</h3>
-                            <h1>159 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-5">
-                            <h3 class="gray">Bing</h3>
-                            <h1>117 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-6">
-                            <h3 class="gray">Yandex</h3>
-                            <h1>96 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-2">
-                            <h3 class="gray">Naver</h3>
-                            <h1>18 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-3">
-                            <h3 class="gray">Seznam</h3>
-                            <h1>8.4 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-4">
-                            <h3 class="gray">Baidu</h3>
-                            <h1>3.5 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
-                        <div id="cont-1-1-5-grid-5">
-                            <h3 class="gray">Daum</h3>
-                            <h1>1.8 M</h1>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   United States</p>
                         </div>
                     </div>
-                    <h3>8.9 billion keywords</h3>
                 </div>
-                <div id="cont-1-1-5-right">
-
-                </div>
-
             </div>
+            <hr/>
+
         </div>
     </body>
 </html>
