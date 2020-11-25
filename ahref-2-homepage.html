@@ -18,10 +18,20 @@
             #cont-2-1-h1 {
                 font-size: 13vh;
             }
+            #cont-1-h1-grid {
+                display: grid;
+                margin: 0 10%;
+                grid-template-columns: 10% 90%;
+            }
             #cont-2-1-p1 {
-                font-size: 9vh;
+                font-size: 10vh;
                 line-height: 100%;
                 margin: 3% 5%;
+            }
+            #cont-2-1-p1 > img {
+                position: absolute;
+                top: 103%;
+                height: 15vh;
             }
             #cont-2-1-p2 {
                 margin: 0% 5%;
@@ -100,11 +110,7 @@
             
 
 
-            #cont-1-h1-grid {
-                display: grid;
-                margin: 0 10%;
-                grid-template-columns: 10% 90%;
-            }
+            
             .white {
                 color: white;
             }
@@ -131,12 +137,14 @@
     <body>
         <!--Free learning materials-->
         <div id="cont-2" class="bg-blue">
+            <div id="floating-top"></div>
+            <div id="floating-down"></div>
             <div id="cont-2-1" class="white">
                 <h1 id="cont-2-1-h1">Free learning<br/><span><img src="src-img/ahref-homepage/cont-2-1-heading-icon.png"/></span>materials</h1>
                 <div id="cont-1-h1-grid">
-                    <img id="cont-1-h1-grid-left" src="src-img/ahref-homepage/cont-2-1-heading-para-icon.png"/ style="margin: 0;">
+                    <img id="cont-1-h1-grid-left" src="src-img/ahref-homepage/cont-2-1-heading-para-icon.png" style="margin: 0;"/>
                     <div id="cont-1-h1-grid-right">
-                        <p id="cont-2-1-p1">Don’t spend $7 on the trial until you learn how Ahrefs can help you get more search traffic and grow your business.</p>
+                        <p id="cont-2-1-p1">Don’t spend $7 on the trial until you learn how Ahrefs can help you get more search traffic and grow your business.<img src="src-img/ahref-homepage/headshot.png" /></p>
                         <p class="gray" id="cont-2-1-p2">Tim Soulo, CMO at Ahrefs</p>
                     </div>
                 </div>
