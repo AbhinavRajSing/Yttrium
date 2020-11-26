@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>"Bringing Big Data to SEO Professionals - Ahrefs by Yttrium"
+        </title>
+        <style>
+            body {
+                font-family: Helvetica,Arial,sans-serif;
+                margin: 0;
+                background-color: #0a2843;
+                height: 100vh;
+                color: white;
+            }
+            #cont-1 {
+
+            }
+            #cont-1-nav-bar {
+                height: 10vh;
+                padding: 1%;
+                border: 1px solid white;
+            }
+            #cont-1-1 {
+                border: 1px solid white;
+                margin: 0 11%;
+                display: grid;
+                grid-template: "center center center center"
+                               "left left left right";
+            }
+            #cont-1-1 > h1{
+                grid-area: center;
+                margin: 0;
+                font-size: 8vh;
+                padding: 2% 4%;
+                border: 1px solid blue;
+            }
+            #cont-1-1-1{
+                grid-area: left;
+                padding: 5%;
+                font-size: 3vh;
+                border: 1px dotted red;
+            }
+            #cont-1-1-2{
+                grid-area: right;
+                border: 1px dotted red;
+                padding: 15%;
+            }
+            .cont-1-1-2-button {
+                display: inline;
+            }
+            .cont-1-1-2-button a {
+                border: 2px solid gray;
+                border-radius: 5%;
+                padding: 2% 10%;
+                color: white;
+                text-decoration: none;
+                margin: 1%;
+            }
+            .cont-1-1-2-button a:hover {
+                border: 2px solid rgb(179, 179, 179);
+            }
+            #cont-1-1-3 {
+                border: 1px solid yellow;
+                margin: 0 11% 4%;
+                width: 65%;
+                padding:3%;
+                display: block;
+                display: grid;
+                grid-template: "a a a a a a a"
+                               "b c d e f f f";
+            }
+            #cont-1-1-3 > h3:nth-child(2),h3:nth-child(3),h3:nth-child(4) {
+                border-right: 1px solid gray;
+            }
+            #cont-1-1-3 > h3 {
+                padding:0 0 0 3%;
+                margin: 0;
+                line-height: 55%;
+            }
+            #cont-1-1-3 > h3 > span {
+                font-size: 30%;
+                font-weight: 100;
+                margin: 0;
+            }
+            #cont-1-1-3-a {
+                font-size: 750%;
+                grid-area: a;
+                margin: 3% 0;
+            }
+            #cont-1-1-3-b {
+                font-size: 310%;
+                grid-area: b;
+            }
+            #cont-1-1-3-c {
+                font-size: 310%;
+                grid-area: c;
+            }
+            #cont-1-1-3-d {
+                font-size: 310%;
+                grid-area: d;
+            }
+            #cont-1-1-3-e {
+                font-size: 310%;
+                grid-area: e;
+            }
+            #cont-1-1-3-f {
+                grid-area: f;
+            }
+            #cont-1-1-4 {
+                margin: 4% 11%;
+                width: 50%;
+                font-size: 150%;
+                padding: 2% 4%;
+                border: 1px solid pink;
+            }
+            #cont-1-1-4-grid {
+                display: grid;
+                font-size: 60%;
+                grid-template-columns: 50% 50%;
+                grid-gap: 5%;
+                line-height: 1vh;
+            }
+            #cont-1-1-4-grid > div {
+                border-left: 1px solid gray;
+                padding-left: 2%;
+            }
+            #cont-1-1-5 {
+                margin: 4% 11% 0;
+                font-size: 150%;
+                padding: 2% 4% 0;
+                /* border: 1px solid pink; */
+            }
+            #cont-1-1-5 > p {
+                width: 75%;
+            }
+            #cont-1-1-5-grid {
+                display: grid;
+                font-size: 60%;
+                grid-template: "a b c d e k k k k k"
+                               "f g h i j k k k k k";
+                grid-gap: 5%;
+                line-height: 25%;
+                margin-bottom: 5%;
+                /* border: 1px solid pink; */
+            }
+            #cont-1-1-5-grid > div {
+                border-left: 1px solid gray;
+                padding-left: 15%;
+            }
+            #cont-1-1-5-grid-1 {
+                grid-area: a;
+            }
+            #cont-1-1-5-grid-2 {
+                grid-area: b;
+            }
+            #cont-1-1-5-grid-3 {
+                grid-area: c;
+            }
+            #cont-1-1-5-grid-4 {
+                grid-area: d;
+            }
+            #cont-1-1-5-grid-5 {
+                grid-area: e;
+            }
+            #cont-1-1-5-grid-6 {
+                grid-area: f;
+            }
+            #cont-1-1-5-grid-7 {
+                grid-area: g;
+            }
+            #cont-1-1-5-grid-8 {
+                grid-area: h;
+            }
+            #cont-1-1-5-grid-9 {
+                grid-area: i;
+            }
+            #cont-1-1-5-grid-10 {
+                grid-area: j;
+            }
+            #cont-1-1-5-grid-11 {
+                grid-area: k;
+                margin-left: 10%;
+                border-left: none !important;
+                line-height: 150%;
+            }
+            #cont-1-1-5-list-grid {
+                margin-top: 5%;
+                display: grid;
+                width: 70%;
+                grid-template-columns: 33.33% 33.33% 33.33%;
+                font-size: 70%;
+                /* border: 1px solid pink; */
+            }
+            #cont-1-1-5-list-grid > div > pre {
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 0;
+                margin: 2%;
+                /* border: 1px solid pink; */
+            }
+
+
+            .gray {
+                color: gray;
+            }
+            .green {
+                color: #06d6a0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cont-1">
+            <div id="cont-1-nav-bar">
+                <img src="src-img/ahref-data/ahref-data-logo.png" width="7%"/>
+                <!-- <h1>Tools</h1>
+                <h1>Pricing</h1>
+                <h1>Help</h1>
+                <h1>Blog</h1>
+                <h1>Academy</h1>
+                <h1>Our data</h1>
+                <div></div> -->
+            </div>
+
+            <div id="cont-1-1">
+                <h1 class="green">Ahrefs by the numbers
+                </h1>
+                <div id="cont-1-1-1">
+                    <p>The Ahrefs team takes great pride in collecting, processing and storing large amounts of data for search marketing professionals.</p>
+
+                    <p>We crawl the entire web 24/7 (much like search engines do) storing petabytes of information about live websites — how they link to each other and what keywords they rank for in search results.</p>
+                        
+                    <p>We process large amounts of clickstream data to maintain the world's largest third-party database of search queries, with estimated monthly search volume and advanced keyword research metrics.</p>
+                        
+                    <p>We're proud of our backend infrastructure. All existing solutions couldn't keep up with the volume of data that we operate, so we had to custom build the larger part of our software infrastructure in-house.</p>
+                </div>
+                <div id="cont-1-1-2">
+                    <h2>Share with others</h2>
+                    <p>Seriously Big Data powers Ahrefs tools. Check out their numbers.</p>
+                    <br/>
+                    <div class="cont-1-1-2-button"><a href="">Share</a></div>
+                    <div class="cont-1-1-2-button"><a href="">Tweet</a></div>
+                </div>
+            </div>
+            <div id="cont-1-1-3">
+                <h1 id="cont-1-1-3-a">2000 SERVERS</h1>
+                <h3 id="cont-1-1-3-b">100K<br/><span>CPU CORES</span></h3>
+                <h3 id="cont-1-1-3-c">600TB<br/><span>RAM</span></h3>
+                <h3 id="cont-1-1-3-d">30PB<br/><span>HDD</span></h3>
+                <h3 id="cont-1-1-3-e">50PB<br/><span>SSD</span></h3>
+                <h3 id="cont-1-1-3-f"></h3>
+            </div>
+            <hr/>
+            <div id="cont-1-1-4">
+                <h1 class="green">Content index</h1>
+                <p>Our content index is basically a mini search engine. You can search for any word and we'll return all the pages mentioning that word with our useful SEO metrics attached to them.</p>
+                <div id="cont-1-1-4-grid">
+                    <div id="cont-1-1-4-grid-1">
+                        <h3 class="gray">Every 24 hours we discover</h3>
+                        <h1>30 million new pages</h1>
+                    </div>
+                    <div id="cont-1-1-4-grid-2">
+                        <h3 class="gray">Every 24 hours we update metrics for</h3>
+                        <h1>350 million pages</h1>
+                    </div>
+                    <div id="cont-1-1-4-grid-3">
+                        <h3 class="gray">Total content index size</h3>
+                        <h1>5.02 billion pages</h1>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div id="cont-1-1-5">
+                <h1 class="green">Keyword index</h1>
+                <p>Keyword index is a huge database of search queries (across 10 different search engines) that you can browse and research what your prospective customers are looking for online.</p>
+                <h3>8.9 billion keywords. 10 search engines. 228 countries.</h3>
+                <div id="cont-1-1-5-grid">
+                    <div id="cont-1-1-5-grid-1">
+                        <h3 class="gray">Google</h3>
+                        <h1>7.4 B</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-2">
+                        <h3 class="gray">Youtube</h3>
+                        <h1>832 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-3">
+                        <h3 class="gray">Yahoo</h3>
+                        <h1>171 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-4">
+                        <h3 class="gray">Amazon</h3>
+                        <h1>159 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-5">
+                        <h3 class="gray">Bing</h3>
+                        <h1>117 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-6">
+                        <h3 class="gray">Yandex</h3>
+                        <h1>96 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-7">
+                        <h3 class="gray">Naver</h3>
+                        <h1>18 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-8">
+                        <h3 class="gray">Seznam</h3>
+                        <h1>8.4 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-9">
+                        <h3 class="gray">Baidu</h3>
+                        <h1>3.5 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-10">
+                        <h3 class="gray">Daum</h3>
+                        <h1>1.8 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-11">
+                        <h3 class="gray">That’s enough to fill out</h3>
+                        <h1>118M book pages</h1>
+                    </div>
+                </div>
+                <div id="cont-1-1-5-list">
+                    <h2>8.9 billion keywords</h2>
+                    <div id="cont-1-1-5-list-grid">
+                        <div>
+                            <pre><span class="gray">1.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">2.8 B</span>   Japan</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.4 B</span>   United Kingdom</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">6.1 B</span>   Germany</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 10 B</span>   France</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 11 B</span>   India</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">8.1 B</span>   Australia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   8 B</span>   Canada</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">4.7 B</span>   Italy</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 15 B</span>   Russian Federation</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.2 B</span>   Brazil</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 13 B</span>   Spain</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   8 B</span>   Mexico</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   4 B</span>   Guadeloupe</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.6 B</span>   Martinique</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   3 B</span>   Montenegro</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   4 B</span>   Tanzania</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.8 B</span>   Zambia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   Bahrain</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   2 B</span>   Kyrgyzstan</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.3 B</span>   Libya</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.6 B</span>   Mongolia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">2.1 B</span>   Ukraine</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   5 B</span>   Fiji</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div id="cont-1-1-5">
+                <h1 class="green">Search traffic index
+                </h1>
+                <p>Search Traffic index is a database of search queries that we use to approximate the search traffic that any website or URL has, and show you the actual keywords that it ranks for.</p>
+
+                <!-- <div id="cont-1-1-5-grid">
+                    <div id="cont-1-1-5-grid-1">
+                        <h3 class="gray">Google</h3>
+                        <h1>7.4 B</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-2">
+                        <h3 class="gray">Youtube</h3>
+                        <h1>832 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-3">
+                        <h3 class="gray">Yahoo</h3>
+                        <h1>171 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-4">
+                        <h3 class="gray">Amazon</h3>
+                        <h1>159 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-5">
+                        <h3 class="gray">Bing</h3>
+                        <h1>117 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-6">
+                        <h3 class="gray">Yandex</h3>
+                        <h1>96 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-7">
+                        <h3 class="gray">Naver</h3>
+                        <h1>18 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-8">
+                        <h3 class="gray">Seznam</h3>
+                        <h1>8.4 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-9">
+                        <h3 class="gray">Baidu</h3>
+                        <h1>3.5 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-10">
+                        <h3 class="gray">Daum</h3>
+                        <h1>1.8 M</h1>
+                    </div>
+                    <div id="cont-1-1-5-grid-11">
+                        <h3 class="gray">That’s enough to fill out</h3>
+                        <h1>118M book pages</h1>
+                    </div>
+                </div> -->
+                <div id="cont-1-1-5-list">
+                    <h2>951 million keywords. 155 countries</h2>
+                    <div id="cont-1-1-5-list-grid">
+                        <div>
+                            <pre><span class="gray">1.8 B</span>   United States</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">2.8 B</span>   Japan</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.4 B</span>   United Kingdom</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">6.1 B</span>   Germany</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 10 B</span>   France</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 11 B</span>   India</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">8.1 B</span>   Australia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   8 B</span>   Canada</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">4.7 B</span>   Italy</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 15 B</span>   Russian Federation</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.2 B</span>   Brazil</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray"> 13 B</span>   Spain</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   8 B</span>   Mexico</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   4 B</span>   Guadeloupe</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.6 B</span>   Martinique</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   3 B</span>   Montenegro</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   4 B</span>   Tanzania</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.8 B</span>   Zambia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">3.8 B</span>   Bahrain</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   2 B</span>   Kyrgyzstan</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.3 B</span>   Libya</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">1.6 B</span>   Mongolia</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">2.1 B</span>   Ukraine</p>
+                        </div>
+                        <div>
+                            <pre><span class="gray">   5 B</span>   Fiji</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            
+        </div>
+    </body>
+</html>
