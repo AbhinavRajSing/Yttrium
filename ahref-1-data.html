@@ -2,8 +2,10 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>"Bringing Big Data to SEO Professionals - Ahrefs by Yttrium"
+        <meta name="viewport" con
+        tent="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="src-img/ahref-data/ahref-data-title-logo.png">
+        <title >Bringing Big Data to SEO Professionals - Ahrefs by Yttrium
         </title>
         <style>
             body {
@@ -13,16 +15,47 @@
                 height: 100vh;
                 color: white;
             }
-            #cont-1 {
-
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color:#ff8800;
             }
             #cont-1-nav-bar {
                 height: 10vh;
                 padding: 1%;
-                border: 1px solid white;
+                /* border: 1px solid white; */
+            }
+            #cont-1-nav-bar > img {
+                position: relative;
+                top: 5%;
+            }
+            #cont-1-nav-bar > a{
+                padding: 0 1%;
+                font-size: 150%;
+                color: gray;
+                /* border: 1px solid pink; */
+            }
+            #cont-1-nav-bar-left {
+                width: 20%;
+                /* border: 1px solid pink; */
+                font-size: 120%;
+                position: absolute;
+                right: 2%;
+                top: 4%;
+            }
+            #cont-1-nav-bar-left > a {
+                border: 01px solid white;
+                padding: 2%;
+                border-radius: 3%;
+            }
+            #cont-1-nav-bar-left > a:hover {
+                color: white !important;
+                border: 2px solid white !important;
             }
             #cont-1-1 {
-                border: 1px solid white;
+                /* border: 1px solid white; */
                 margin: 0 11%;
                 display: grid;
                 grid-template: "center center center center"
@@ -33,17 +66,17 @@
                 margin: 0;
                 font-size: 8vh;
                 padding: 2% 4%;
-                border: 1px solid blue;
+                /* border: 1px solid blue; */
             }
             #cont-1-1-1{
                 grid-area: left;
                 padding: 5%;
                 font-size: 3vh;
-                border: 1px dotted red;
+                /* border: 1px dotted red; */
             }
             #cont-1-1-2{
                 grid-area: right;
-                border: 1px dotted red;
+                /* border: 1px dotted red; */
                 padding: 15%;
             }
             .cont-1-1-2-button {
@@ -61,7 +94,7 @@
                 border: 2px solid rgb(179, 179, 179);
             }
             #cont-1-1-3 {
-                border: 1px solid yellow;
+                /* border: 1px solid yellow; */
                 margin: 0 11% 4%;
                 width: 65%;
                 padding:3%;
@@ -112,7 +145,7 @@
                 width: 50%;
                 font-size: 150%;
                 padding: 2% 4%;
-                border: 1px solid pink;
+                /* border: 1px solid pink; */
             }
             #cont-1-1-4-grid {
                 display: grid;
@@ -130,6 +163,9 @@
                 font-size: 150%;
                 padding: 2% 4% 0;
                 /* border: 1px solid pink; */
+            }
+            #cont-1-1-5 > h3 {
+                border: none;
             }
             #cont-1-1-5 > p {
                 width: 75%;
@@ -198,10 +234,12 @@
                 margin: 2%;
                 /* border: 1px solid pink; */
             }
-
-
-
-
+            #cont-1-1-7 {
+                margin: 4% 11% 0;
+                font-size: 150%;
+                padding: 2% 4% 0;
+                width: 55%;
+            }
             #cont-1-1-8{
                 /* border: 1px dotted red; */
                 margin: 2% 11%;
@@ -226,18 +264,29 @@
                 margin: 2% 11%;
                 padding: 3% 4%;
                 font-size: 105%;
-                border: 1px solid pink;
+                /* border: 1px solid pink; */
                 display: grid;
                 grid-template-columns: auto auto auto auto;
             }
             #cont-1-1-9 > div {
-                line-height:30%;
+                line-height: 40%;
             }
-            #cont-1-1-9 > div p:onhover {
+            /* #cont-1-1-9 > div a:hover {
                 color:#ff8800;
+            } */
+            #cont-1-1-10 {
+                padding: 0.5% 0;
             }
-
-
+            #cont-1-1-10 > a {
+                padding: 1%;
+            }
+            #cont-1-1-11 {
+                padding: 0 1%;
+                font-size: 80%;
+            }
+            #cont-1-1-11 > a{
+                font-size: 100%;
+            }
             .gray {
                 color: gray;
             }
@@ -250,20 +299,23 @@
         <div id="cont-1">
             <div id="cont-1-nav-bar">
                 <img src="src-img/ahref-data/ahref-data-logo.png" width="7%"/>
-                <!-- <h1>Tools</h1>
-                <h1>Pricing</h1>
-                <h1>Help</h1>
-                <h1>Blog</h1>
-                <h1>Academy</h1>
-                <h1>Our data</h1>
-                <div></div> -->
+                <a href="">Tools</a>
+                <a href="">Pricing</a>
+                <a href="">Help</a>
+                <a href="">Blog</a>
+                <a href="">Academy</a>
+                <a style="color: rgb(209, 209, 209);">Our data<img src="src-img/ahref-data/ahref-data-header-lang.png" style="position: relative;top: 1%;"/></a>
+                <div id="cont-1-nav-bar-left">
+                    <a href="/Users/abhinav_raj/Desktop/ahref_project/signin.html">Sign in</a>
+                    <a href="/Users/abhinav_raj/Desktop/ahref_project/starttrial.html">Start a 7-day trial for $7</a>
+                </div>
             </div>
 
             <div id="cont-1-1">
                 <h1 class="green">Ahrefs by the numbers
                 </h1>
                 <div id="cont-1-1-1">
-                    <p>The Ahrefs team takes great pride in collecting, processing and storing large amounts of data for search marketing professionals.</p>
+                    The Ahrefs team takes great pride in collecting, processing and storing large amounts of data for search marketing professionals.</p>
 
                     <p>We crawl the entire web 24/7 (much like search engines do) storing petabytes of information about live websites — how they link to each other and what keywords they rank for in search results.</p>
                         
@@ -567,7 +619,10 @@
             </div>
             <hr/>
             <div id="cont-1-1-7">
-
+                <h1 class="green">Backlink index</h1>
+                <p>Ahrefs boasts the world's largest index of live backlinks. We update it with fresh data every 15-30 minutes. We use backlink data to calculate our proprietary metrics: Ahrefs Rank, Domain Rating and URL Rating.</p>
+                <img src="src-img/ahref-data/ahref-data-graph-1.png"/>
+                <img src="src-img/ahref-data/ahref-data-graph-2.png"/>
             </div>
             <hr/>
             <div id="cont-1-1-8">
@@ -581,43 +636,60 @@
             <div id="cont-1-1-9">
                 <div>
                     <p class="gray">MAIN TOOLS</p>
-                    <p>Site Explorer</p>
-                    <p>Keywords Explorer</p>
-                    <p>Site Audit</p>
-                    <p>Rank Tracker</p>
-                    <p>Content Explorer</p>
+                    <p><a href="">Site Explorer</a></p>
+                    <p><a href="">Keywords Explorer</a></p>
+                    <p><a href="">Site Audit</a></p>
+                    <p><a href="">Rank Tracker</a></p>
+                    <p><a href="">Content Explorer</a></p>
                 </div>
                 <div>
                     <p class="gray">EXTRA TOOLS</p>
-                    <p>Domain Comparison</p>
-                    <p>Batch Analysis</p>
-                    <p>Link Intersect</p>
-                    <p>Content Gap</p>
-                    <p>Email Alerts</p>
-                    <p>SEO Toolbar</p>
-                    <p>WordPress Plugin</p>
-                    <p>Word Count</p>
-                    <p>Website Checker</p>
-                    <p>Traffic Checker</p>
+                    <p><a href="">Domain Comparison</a></p>
+                    <p><a href="">Batch Analysis</a></p>
+                    <p><a href="">Link Intersect</a></p>
+                    <p><a href="">Content Gap</a></p>
+                    <p><a href="">Email Alerts</a></p>
+                    <p><a href="">SEO Toolbar</a></p>
+                    <p><a href="">WordPress Plugin</a></p>
+                    <p><a href="">Word Count</a></p>
+                    <p><a href="">Website Checker</a></p>
+                    <p><a href="">Traffic Checker</a></p>
                 </div>
                 <div>
                     <p class="gray">FEATURES</p>
-                    <p>Backlink Checker</p>
-                    <p>Broken Link Checker</p>
-                    <p>Website Authority Checker</p>
-                    <p>Keyword Generator</p>
-                    <p>Youtube Keyword Tool</p>
-                    <p>Amazon Keyword Tool</p>
+                    <p><a href="">Backlink Checker</a></p>
+                    <p><a href="">Broken Link Checker</a></p>
+                    <p><a href="">Website Authority Checker</a></p>
+                    <p><a href="">Keyword Generator</a></p>
+                    <p><a href="">Youtube Keyword Tool</a></p>
+                    <p><a href="">Amazon Keyword Tool</a></p>
                 </div>
                 <div>
-                    <p>Bing Keyword Tool</p>
-                    <p>SERP Checker</p>
-                    <p>SEO Checker</p>
-                    <p>Keyword Rank Checker</p>
-                    <p>Keyword Difficulty Checker</p>
+                    <p><a href="">Bing Keyword Tool</a>
+                    <p><a href="">SERP Checker</a>
+                    <p><a href="">SEO Checker</a>
+                    <p><a href="">Keyword Rank Checker</a>
+                    <p><a href="">Keyword Difficulty Checker</a>
                 </div>
             </div>
-            
+            <hr/>
+            <div id="cont-1-1-10">
+                <a href="">About</a>
+                <a href="">Team</a>
+                <a href="">Jobs</a>
+                <a href="">Our data</a>
+                <a href="">SEO Blog</a>
+                <a href="">Robot</a>
+                <a href="">Pricing</a>
+                <a href="">API</a>
+                <a href="">Help</a>
+                <a href="">Contact us</a>
+                <a href=""><img src="src-img/ahref-data/ahref-data-footer-lang.png" width="1.4%" style="position: relative;right: 0.5%;"/>English</a>
+            </div>
+            <hr/>
+            <div id="cont-1-1-11">
+                <p class="gray">© 2020 Ahrefs Pte. Ltd. (201227417H) 16 Raffles Quay, #33-03 Hong Leong Building, Singapore 048581 <a href="">Terms & conditions</a> | <a href="">Privacy policy</a></p>
+            </div>
         </div>
     </body>
 </html>
