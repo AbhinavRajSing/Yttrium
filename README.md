@@ -6,6 +6,7 @@
 - Abhinav Raj
 - Martin
 - Subhash Kumar Jha
+
 **Languages used to make the project**
 1. HTML
 2. CSS
@@ -20,5 +21,4 @@
 **Task Assigned**
 All three members were assigned different tasks to complete the project within the given time limit.
 
-**Some Screen shots of our Website**
-![alt text](pricing.jpg)
+
