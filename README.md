@@ -1,21 +1,25 @@
 # Yttrium
-### TEAM MATES
-Martin Wilson,
-Subhash Kumar Jha,
-Abhinav Raj
-### Team Lead 
-Nihal Ahmed
-### Project
-ahref website clone
-### martin
+## First Project- Clone of Ahref website
 
-### subhash
+## ahref Website
+**Team Members**
+- Abhinav Raj
+- Martin
+- Subhash Kumar Jha
 
-### abhinav
-### Day2 tasks:
-### Martin
-Our Data Page
-### Subhash
-Sign In & Start Trial
-### Abhinav 
-Pricing
+**Languages used to make the project**
+1. HTML
+2. CSS
+3. JS
+
+**Things Completed and Replicated**
+- Landing Page
+- Our Data page
+- Pricing
+- Sign In
+- Start Trial
+
+**Task Assigned**
+All three members were assigned different tasks to complete the project within the given time limit.
+
+
