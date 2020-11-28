@@ -18,6 +18,7 @@
 - Pricing
 - Sign In
 - Start Trial
+
 **Task Assigned**
 All three members were assigned different tasks to complete the project within the given time limit.
 
